@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "cmath": "cpp",
+        "complex": "cpp",
+        "*.tcc": "cpp",
+        "random": "cpp",
+        "ratio": "cpp",
+        "string": "cpp",
+        "regex": "cpp",
+        "array": "cpp",
+        "bitset": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp",
+        "valarray": "cpp"
+    }
+}

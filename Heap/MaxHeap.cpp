@@ -89,6 +89,7 @@ int main()
     h.insert(54);
     h.print();
     h.del();
+    h.del();
     h.print();
     return 0;
 }

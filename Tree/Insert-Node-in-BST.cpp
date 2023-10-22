@@ -82,6 +82,7 @@ Node *buildTree(string str)
     return root;
 }
 
+//1st Approach
 void insert(Node *root, int k)
 {
     if (!root)
@@ -105,6 +106,23 @@ void insert(Node *root, int k)
         insert(root->right, k);
     }
 }
+
+//2nd Approach
+Node* insertNode(Node* root, int key){
+    
+    if(root == NULL){
+        Node* temp = new Node(key);
+        return temp;
+    }
+    
+    if(root->data < key){
+        root->right = insertNode(root->right,key);
+    }else{
+        root->left = insertNode(root->left,key);
+    }
+    return root; 
+}
+
 
 void inorder(Node *root)
 {
